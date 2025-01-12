@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url='https://external.api.recraft.ai/v1',
-    api_key='XIiQOPeeK6XGfVh8OhKUSfVeYDoUkUykgqtS5aWaVDj4AnfMGbiP4HGxVojL57ZB',
+    api_key='API_KEY',
 )
 
 response = client.images.generate(
